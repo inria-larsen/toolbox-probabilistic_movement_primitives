@@ -4,7 +4,7 @@ This toolbox allow (1) to learn the distribution of any kind of trajectories (i.
 #INFO 
 This toolbox is inspired by the one from this [one](https://github.com/marcoewerton/Learning_Motor_Skills_from_Partially_Observed_Movements_Executed_at_Different_Speeds)
 The change is to allow to use the toolbox for any kind of trajectory, and for any “kind of data” we want that have any dimension we want.
-Please, do not hesitate to contact [me](oriane.dermy@gmail.com) if you have any problem, remarks, or some idea of improvement, with subject [proMPs_toolbox].
+Please, do not hesitate to contact me (oriane.dermy@gmail.com) if you have any problem, remarks, or some idea of improvement, with subject [proMPs_toolbox].
 
 # PARAMETERS  
 To use it, in the function proMPS_toolbox has some parameters:  

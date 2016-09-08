@@ -81,13 +81,6 @@ sigma_new = sigma_w{reco{1}};
 
 %we complete the data with the supposed forces correlated to the movement
 %according to the learned trajectory
-
-%%%%%%%%%%%
-     y_trial_part{t} = [];
-        for k=1:nbDof(typeReco)
-           y_trial_part{t} = [y_trial_part{t} ; y_trial_Tot{trial}(totalTimeTrial(trial)*(prevDof+k -1) + 1 : totalTimeTrial(trial)*(prevDof+k -1) + t)];
-        end
-        %%%%%%%%%
 y_prev = [];
 for i=1:prevDof
     y_prev  = [y_prev ; y_trial_Tot{trial}(totalTimeTrial(trial)*(i -1) + 1 : totalTimeTrial(trial)*(i -1) + t)];
